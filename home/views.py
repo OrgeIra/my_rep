@@ -3,4 +3,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def get_info(request):
-    return HttpResponse('Hello Python')
+    return HttpResponse('Hello Python') 
