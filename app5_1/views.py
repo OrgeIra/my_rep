@@ -1,0 +1,9 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def view5_1(request):
+    return HttpResponse("This is view1 of app5_1")
+
+def view5_2(request):
+    return HttpResponse("This is view2 of app5_1")
+# Create your views here.
